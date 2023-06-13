@@ -134,7 +134,7 @@ class _AddPostPageState extends State<AddPostPage> {
               child: ElevatedButton(
                   onPressed: () {
                     if (formkey.currentState!.validate()) {
-                      print('save button is working..... ');
+
                       Map<String, dynamic> studentInfo = {
                         'name': _studentNameController.text,
                         'department': _departmentController.text,
